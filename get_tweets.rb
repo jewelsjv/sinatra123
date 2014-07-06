@@ -6,8 +6,8 @@ require 'twitter'
 # Authentication details from twitter, your starting
 # point is here: https://dev.twitter.com/apps/new
 client = Twitter::REST::Client.new do |config|
-  config.consumer_key    = "tu9ppAx6KKm0LJVD7bT1KA"
-  config.consumer_secret = "si6TKVg9QM2nWC4pofmSgRF93y3mZmvyhNHY3o8YyY"
+  config.consumer_key    = "CONSUMER_KEY"
+  config.consumer_secret = "SECRET_KEY"
 end
 
 # Get the first tweet of the specified user
