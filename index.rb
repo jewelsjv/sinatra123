@@ -4,7 +4,7 @@ get '/' do
 	erb :index, layout: :bootstrap
 end
 
-get '/page1' do
-	"This is page 1"
+get '/about' do
+	erb :about, layout: :bootstrap
 end
 
